@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+nav{background-color: rgba(246, 240, 231, 0.935);height: 80px;font-size: larger;position: fixed;width: 100%;z-index: +2;border-radius: 1px solid brown;border-bottom: 1px solid rgba(75, 73, 73, 0.34);}
+.feacture{margin-left: 400px;}
+ 
+body{background-color:rgb(254, 252, 237);margin: 0;}
+center{margin-top: 100px;}
+.logo{height: 30px;margin-top: 20px;margin-left: 0px;}
+pre{margin-left: 550px;margin-bottom: 30px;}
+ul{display: flex;list-style: none;margin-left: 0px;margin-top: 0px;margin-bottom: 30px;}
+li{margin-left: 50px;margin-top: 20px;}
+.bgimg{width: 96%;border-radius: 30px;z-index: +1 ;margin-left: 30px;position: relative;z-index:  -1;margin-top: 110px;}
+.right{margin-left:  200PX;}
+button{border-radius: 20PX;height: 50px;width: 150px;background-color: rgb(5, 195, 5);font-size: 20px;}
+.absolute{position: absolute;margin-left: -650px;margin-top: 420px;}
+.voice{position: absolute;margin-left: -650px;margin-top: 350px;}
+.imoji{position: absolute;margin-left: -640px;margin-top:220px}
+.msg{position: absolute;margin-left: -650px;margin-top:180px;}
+ 
+p{margin-top: -580px;margin-left: 250px;color: aliceblue;font-size: 80px;position: absolute;font-family: Arial, Helvetica, sans-serif;}
+.letters{margin-top: -390px;margin-left: 250px;color: aliceblue;font-size: 20px;position: absolute;font-family: Arial, Helvetica, sans-serif ;}
+ .download{position: absolute;margin-top: -350px;margin-left: 250;}
+.smiley{position: absolute;margin-left: -650px;margin-top: 660px;}
+.heart{position: absolute;margin-left: -650px;margin-top:205px;}
+.msg2{position: absolute;margin-left: -660px;margin-top: 720px;}
+.mini1{margin-left: 80px;width: 90%;margin-top:60px;letter-spacing: -1px;}
+h1{ font-size: 50px;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;margin-left: 300px ;}
+.mini2{margin-left: 80px;width: 90%;margin-top:0px;}
+.vidcall{margin-left:900px;margin-top: 60px;position: relative;}
+h2{font-size: 55px;font-family:  Arial, Helvetica, sans-serif;margin-left: 260px;position: absolute;margin-top: -540px;letter-spacing: -1px;}
+.txt{font-size: 20px ;font-family: Arial, Helvetica, sans-serif ; margin-left: 260px;position: absolute;margin-top: -250px;}
+.text{margin-left: 320px;}
+.hover:hover{color: #23db23;font-size: 20px;}
+.hover{border-bottom: 2px solid rgb(32, 206, 32);}
+.div{height: 900px;width: 100%;background-color: rgb(20, 27, 31);margin-bottom: 100px;position: relative; }
+.black{margin-left: 260px;margin-top: 100px;}
+.blacktxt{font-size: 60px;color: aliceblue;margin-top: 280px;margin-left: 100px;position: absolute;font-family: Arial, Helvetica, sans-serif;font-weight: lighter;} 
+.green{color: rgb(32, 206, 32);}
+.white{font-size: 20px;font-weight: 100;}
+.hover2:hover{color:  rgb(32, 206, 32);}
+.hover2{border-bottom:solid #23db23;}
+.whiteimg{margin-left: -360px;position: absolute;z-index: +1;margin-top: 90px;}
+.bgwhite{margin-left: 900px;position: relative;}
+.boldtxt{position: absolute;margin-left: -63%;margin-top: 200px;font-size: 55px;font-family: Arial, Helvetica, sans-serif;font-weight: lighter;}
+.white2{font-size: 17px;font-weight: lighter;}
+.hover3{border-bottom:solid #23db23;}
+.hover3:hover{color:  rgb(32, 206, 32);}
+.lady{margin-left: 350px;position: relative;margin-top: 200px;}
+.sticker{position: absolute;margin-left: -330px;height: 280px;margin-top: 400px;}
+.boldtxt2{position: absolute;margin-left: 200px;margin-top: 200px;font-size: 55px;font-family: Arial, Helvetica, sans-serif;font-weight: lighter;margin-top: 400px;}
+.hover4:hover{color:  rgb(32, 206, 32);}
+.hover4{border-bottom:solid #23db23;}
+
+.white3{font-size: 17px;font-weight: lighter;}
+
+.veggie{margin-left: 900px;position: relative;margin-top:200px ;}
+.boldtxt3{position: absolute;margin-left: -980px;margin-top: 280px;font-size: 55px;font-family: Arial, Helvetica, sans-serif;font-weight: lighter;margin-top: 350px;}
+.white4{font-size: 17px;font-weight: lighter;}
+.hover5:hover{color:  rgb(32, 206, 32);}
+.hover5{border-bottom:solid #23db23;}
+.green2{ height: 630px;width: 100%;background-color: #E6FFDA;margin-bottom: 100px;position: relative;margin-top: 100px;border-bottom-left-radius: 50px ;border-bottom-right-radius: 50px;position: relative;}
+.bottomblack{background-color: rgb(20, 27, 31);height: 600px;width: cover;margin-top: -200px;}
+.out{position: absolute;margin-left: 250px;margin-top: 90px;font-size: 58px;font-family: Arial, Helvetica, sans-serif;font-weight: lighter;color: black;}
+#gtxt{border:2px solid #e5eee5;height: 400px;width: 500px;position: absolute;background-color: rgb(254, 252, 237);margin-left: 800px;margin-top :-640px;border-radius: 40px;font-family: Arial, Helvetica, sans-serif;font-weight: lighter;}
+#gtxt2{border:2px solid #e5eee5;height: 400px;width: 500px;position: absolute;background-color: rgb(254, 252, 237);margin-left:  1350px;margin-top :-640px;border-radius: 40px;font-family: Arial, Helvetica, sans-serif;font-weight: lighter;}
+ 
+#big,#big2{font-size: 30px;font-family: Arial, Helvetica, sans-serif;margin-left: 50px;}
+.logob,.logob2{height:40px;width:40px;margin-left: 50px;margin-top: 50px;}
+h4{margin-left: 50px;}
+.b{background-color: aliceblue;width: 130px;height: 50px;font-size: medium;margin-top: 20px;border-radius: 50px;}
+.c{margin-left: -1100px;width: 50px;border-radius: 60px;background-color: #E6FFDA;border-color: rgb(142, 138, 138);}
+.d{width: 50px;border-radius: 60px;background-color: #E6FFDA;border-color: rgb(148, 144, 144);}
+.c:hover{border-color: black;}
+.d:hover{border-color: black;}
+.whitelogo{margin-top: 200px;margin-left: 280px;}
+table{color: aliceblue; margin-left: 500px;padding-left: 80PX;}
+td{margin-left: 100px;}
+</style>
+
+<nav>
+<ul>
+    <ul><img src="https://static.whatsapp.net/rsrc.php/v3/y7/r/DSxOAUB0raA.png"class="logo"></ul>
+    <li class="feacture"><option value="Feactures">Feactures</option></li>
+    <option value="."></option> 
+    <li>Privacy</li>
+    <li>Help Centre</li>
+    <li>Blog</li>
+    <li class="right">whatsapp Web</li>
+    <li class="button"><button>Download</button></li>
+</ul>
+</nav>
+
+    <img src="https://scontent.whatsapp.net/v/t39.8562-34/316546300_547692113846445_7299710494491288098_n.png?ccb=1-7&_nc_sid=2fbf2a&_nc_ohc=ye5Fv4GagSkAX8_UyOL&_nc_ht=scontent.whatsapp.net&oh=01_AdQprD-lBlU4XKwy-wASGJROVVw60TvqJIjXiH-3bK6MhQ&oe=63CE3125"class="bgimg">
+
+    <p>Message <br>privately</p>
+<p class="letters">Simple, reliable, private messaging and<br> calling for free*, available all over the <br>world.<br><br><button class="Download">Download</button></p>
+
+
+
+    <img src="https://scontent.whatsapp.net/v/t39.8562-34/318653358_1119864552007486_249294869100988162_n.png?ccb=1-7&_nc_sid=2fbf2a&_nc_ohc=ScwCrpaFUmkAX_c7czZ&_nc_ht=scontent.whatsapp.net&oh=01_AdT-CYleQ8e4VWdens-HdnCbJJczy5i-Pfiumk8mCcMV0Q&oe=63CEE1B1"class="absolute">
+ 
+    <img src="https://scontent.whatsapp.net/v/t39.8562-34/319012896_425159346360681_5365263553412164973_n.png?ccb=1-7&_nc_sid=2fbf2a&_nc_ohc=7_JqNCgjhQYAX8HpdGj&_nc_ht=scontent.whatsapp.net&oh=01_AdTnJg1oofNhR9X01ezfcyxhz4p96REqERqpPkI_cl0_uw&oe=63CE4848"class="voice">
+
+    <img src="https://scontent.whatsapp.net/v/t39.8562-34/318567080_617695970110803_5923371384204745052_n.png?ccb=1-7&_nc_sid=2fbf2a&_nc_ohc=6pZ_wRXCLbAAX-20C3T&_nc_ht=scontent.whatsapp.net&oh=01_AdR_f2vXemey--oLZ2otvxj1mApo-47KBjgWbZCvyUL1LA&oe=63CFFFA6"class="imoji">
+
+    <img src="https://scontent.whatsapp.net/v/t39.8562-34/319117401_861353331653367_2187782343645347131_n.png?ccb=1-7&_nc_sid=2fbf2a&_nc_ohc=GwYmSEZOJrMAX9wCU6s&_nc_ht=scontent.whatsapp.net&oh=01_AdRty46qpzIHlGcTLJ9vFmlX5CEWh2ID_g3nLrDq-I3Bqw&oe=63CEA984"class="msg">
+    
+    <img src="https://scontent.whatsapp.net/v/t39.8562-34/319034606_510611487515689_1980441205502922300_n.png?ccb=1-7&_nc_sid=2fbf2a&_nc_ohc=ONZGwJbQwkcAX9cr4nt&_nc_ht=scontent.whatsapp.net&oh=01_AdRQRF2oGWoQPAVjioOnrx861G0wh_Y9C34rAishL38mog&oe=63CF9E56"class="smiley">  
+
+
+
+    <img src=" https://scontent.whatsapp.net/v/t39.8562-34/319041177_516750077049443_9017278570920640914_n.png?ccb=1-7&_nc_sid=2fbf2a&_nc_ohc=9ug60_uTN_YAX_X5oTv&_nc_ht=scontent.whatsapp.net&oh=01_AdQwWxxy9UvrYUlj4yQSpfGWERqQTjjIlw9pAEY-ihPjLw&oe=63D12B2F"class="heart">
+
+    <img src="https://scontent.whatsapp.net/v/t39.8562-34/319004869_3391894947766247_2403380324012648914_n.png?ccb=1-7&_nc_sid=2fbf2a&_nc_ohc=FLPdHn9q9g8AX8jEPOZ&_nc_ht=scontent.whatsapp.net&oh=01_AdQ1zjRWmv1UczvBuIJHvAjaqrDD9RrURRgSI_cpHn65tg&oe=63D048FB"class="msg2">
+
+    <img src="https://scontent.whatsapp.net/v/t39.8562-34/315574582_669241857978207_6336028129238262344_n.png?ccb=1-7&_nc_sid=2fbf2a&_nc_ohc=-iDtaMGOKYoAX9I_V4-&_nc_oc=AQmHDepW-cUTt-VbvCd9UEqGX1W95s0PPQp7Yc2cJ7_bFDM_BzaMQW3AwaNCjFVOfXN6KxGbyRikxdQNEwWljmA8&_nc_ht=scontent.whatsapp.net&oh=01_AdTThq4iqhEdCO3EzsPH_Dn3MPyqzA6UVbC8uSCNHTGClA&oe=63D0D2CC"class="mini1">
+
+<h1>With private messaging and calling, you can<br>be yourself, speak freely and feel close to the<br> most important people in your life no matter <br><span class="text">where they are.</span></h1>
+    <img src="https://scontent.whatsapp.net/v/t39.8562-34/315632381_5616928641708856_9210500231334849736_n.png?ccb=1-7&_nc_sid=2fbf2a&_nc_ohc=NqfgTFv1WuoAX8pbdPM&_nc_ht=scontent.whatsapp.net&oh=01_AdQF2FuUMn0vB9Vpm7b72m3RAV7EtPTWSXHt6Q2bn0GDKA&oe=63CF974D"class="mini2">
+
+    <img src="https://scontent.whatsapp.net/v/t39.8562-34/316211879_640016534274402_8272733547019635528_n.png?ccb=1-7&_nc_sid=2fbf2a&_nc_ohc=wuB-BoM4yQoAX_7UDmq&_nc_ht=scontent.whatsapp.net&oh=01_AdQDZhrnD8bIDOY2c8YRxSPkU2pzGhIJ1QZY2sK0TBqInA&oe=63D06816"class="vidcall">
+
+    <h2>Never miss a<br> moment with <br>voice and video<br> calls</h2>
+    <h2 class="txt">From a group call to classmates to a quick call with mom,<br> feel like you’re in the same room with voice and <br>video 
+    <br><br>
+    <span class="hover">Learn more ></span></h2>
+<div class="div">
+        <img src="https://scontent.whatsapp.net/v/t39.8562-34/316036583_870096634427722_4468595013887544943_n.png?ccb=1-7&_nc_sid=2fbf2a&_nc_ohc=B9trpN2l6jAAX9O4axM&_nc_ht=scontent.whatsapp.net&oh=01_AdQ5K_uHNXK6odK_MuUVdlmkZaYQ9VLomRTefoLR66MT1Q&oe=63D3E3F1"class="black">
+        <span class="blacktxt">Speak<br>
+           <span class="green">freely</span><br><h5 class="white">With end-to-end encryption, your personal messages and <br>calls are secured. Only you and the person you're talking<br> to can read or listen to them, and nobody in between, not<br> even WhatsApp.
+            
+            <br><br><span class="hover2">Learn more ></span></h5><br>
+            </span>
+
+
+
+
+
+    </div>
+
+    
+    <img src="https://scontent.whatsapp.net/v/t39.8562-34/318716844_644367477472796_6799212725643495984_n.png?ccb=1-7&_nc_sid=2fbf2a&_nc_ohc=fiIPMj3SDtAAX9HgZVo&_nc_ht=scontent.whatsapp.net&oh=01_AdS5KwGoyGOxZyoJwIqJMe06DfriL8XAkNer6KthU1wosg&oe=63D4A4E5"class="bgwhite">
+
+    <IMG src="https://scontent.whatsapp.net/v/t39.8562-34/318759416_815630979518701_2490140615586319278_n.png?ccb=1-7&_nc_sid=2fbf2a&_nc_ohc=FN0wKb8ipeIAX8uRjcZ&_nc_ht=scontent.whatsapp.net&oh=01_AdTIQQCAz0DUSeGTdtIv2OUduf1gzVzlnyxipL_g7jSaMA&oe=63D3964D"class="whiteimg">
+
+
+
+      <span class="boldtxt"> Keep in touch <br>
+        with your groups<br>
+       <h5 class="white2">  Whether it's planning an outing with friends or simply<br> staying on top of your family chats, group conversations<br> should feel effortless.<br><br>
+
+        <span class="hover3">Learn more ></span></h5><br>
+    </span><br>
+<img src="https://scontent.whatsapp.net/v/t39.8562-34/317076792_511422874258852_7691088395873706953_n.png?ccb=1-7&_nc_sid=2fbf2a&_nc_ohc=HQBGJr23-4MAX9xP2Sl&_nc_ht=scontent.whatsapp.net&oh=01_AdSCVa-U4EbNc3-pjxX3B2Ag0jrD5zTL3QID9Pb4g4Q1RQ&oe=63D63E3C"class="lady">
+
+<img src="https://scontent.whatsapp.net/v/t39.8562-34/311869879_1082331725759559_5382136804801289925_n.png?ccb=1-7&_nc_sid=2fbf2a&_nc_ohc=fEfxAP1QWK4AX-ULbSY&_nc_ht=scontent.whatsapp.net&oh=01_AdQZTzFhAT7VNYAsFumoh9JdcxaYZVyt61OTZwcGNfr-ww&oe=63D593AF"class="sticker">
+
+<span class="boldtxt2">
+Say what<br>
+you feel<br>
+<h5 class="white3">Express yourself without words. Use stickers and GIFs or<br> share everyday moments on Status. Record a voice<br> message for a quick hello or a longer story.<br><br>
+
+<span class="hover4">Learn more ></span>
+</h5>
+
+ </span>
+
+ <img src="https://scontent.whatsapp.net/v/t39.8562-34/317928972_3113868322083538_5009625331297439441_n.png?ccb=1-7&_nc_sid=2fbf2a&_nc_ohc=rmPfhB9Y7ZoAX-kk-S_&_nc_ht=scontent.whatsapp.net&oh=01_AdTLjLrtIGPDIfmYbxBhFkChQvEWW4-Oi8L6C6qqTWlK9g&oe=63D5DF6C"class="veggie">
+
+<span class="boldtxt3">
+    Transform<br>
+your business
+<h5 class="white4">WhatsApp Business helps you reach your customers<br> globally to deliver compelling experiences at scale.<br> Showcase your products and services, increase sales,<br> and build relationships all with WhatsApp.<br><br>
+
+    <span class="hover5">Learn more</span>
+</h5>
+</span>
+<div class="green2">
+    <p class="out"> Connect with us</p>
+</div>  
+    <span id="gtxt">
+        <img src=" https://tse4.mm.bing.net/th?id=OIP.1hrTtWk8KvDDkGQCQL-eGQHaHa&pid=Api&P=0"class="logob">
+        <h4 id="big">Connecting to WhatsApp by<br> Proxy</h4>
+        <h4>Happy New Year to everyone who uses WhatsApp! We’re mindful that just as we’ve celebrated the start to 2023 through private texts or calls, there are...
+        <br>
+       <button class="b"> Read More</button></h4> </span>
+    <span id="gtxt2">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.1hrTtWk8KvDDkGQCQL-eGQHaHa&pid=Api&P=0"class="logob2">
+        <h5 id="big2"> Improved Calling on <br>WhatsApp</h4>
+        <h4> While WhatsApp is best known for bringing private and secure messaging to users across the world, more and more people are using WhatsApp as a way to...
+            <br>
+        
+       <button class="b"> Read More</button></h4>
+<button class="c"> < </button> 
+<button class="d">></button></span>
+     
+     
+
+
+
+
+
+
+
+<div class="bottomblack">  
+   
+
+    <img src="https://static.whatsapp.net/rsrc.php/v3/yJ/r/Qhrnh5evyPV.png"class="whitelogo">
+<table>
+<tr>
+    
+<td>
+    What we do <br>
+   <span> Features<br>
+    Blog<br>
+    Stories<br>
+    For Business</span>
+
+
+
+
+</td>
+ 
+<td class="who">
+    Who we are <br>
+   <SPan> About us<br>
+    Careers<br>
+    Brand Center<br>
+    Privacy<br></span>
+
+
+</td>
+ 
+<td>
+    Use WhatsApp<br>
+    <span>Android<br>
+    iPhone<br>
+    Mac/PC<br>
+    WhatsApp Web<br></span>
+
+
+
+</td>
+ 
+<Td>
+    
+     Need help?<br>
+     <span>Contact Us<br>
+    Help Center<br>
+    Coronavirus</span>
+
+
+    
+
+</Td>
+</tr>
+
+
+
+
+</table>
+
+
+
+
+
+</div>
+</body>
+</html>
